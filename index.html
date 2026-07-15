@@ -1,38 +1,105 @@
 <!DOCTYPE html>
-<!-- Student Name: Mitchell Hess,
- File Name: template.html,
- Date: July 12, 2026-->
+<!-- Student Name: Mitchell Hess
+  File Name: index.html
+  Date: July 11, 2026 -->
 <html lang="en">
 <head>
-  <title>Sherri Hess Biosite: Template</title>
+  <title>Notable Moments in the Life of Sherri Hess</title>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
-<!-- Use the header area for the website name or logo -->
-  <header>
-    <h1>Sherri Hess</h1>
-    <h2>A Biography for the Life of Sherri</h2>
-  </header>
+  <div id="container">
 
-<!-- Use the nav area to add hyperlinks to other pages within the website -->
-  <nav>
-   <p><a href="index.html">Home</a>
-    <a href="about.html">About Us</a>
-    <a href="hobbies.html">Sherri's Hobbies</a>
-  </nav>
+    <header>
+      <a href="index.html">Notable Moments in the Life of Sherri Hess</a>
+    </header>
 
-<!-- Use the main area to add the main content of the webpage -->
-  <main>
-    <p>Welcome to a biography site dedicated to Sherri Hess. In this biography site you will see that she is much more than a spouse, mother, grandmother, and best friend. Hope you enjoy learning about the woman that I have the honor of calling my wife.</p>
-  </main>
+    <nav aria-label="Primary navigation">
+      <ul>
+        <li><a href="index.html" class="active" aria-current="page">Home</a></li>
+        <li><a href="about.html">About Sherri</a></li>
+        <li><a href="hobbies.html">Sherri's Hobbies</a></li>
+      </ul>
+    </nav>
 
-<!-- Use the footer area to add webpage footer content -->
-  <footer>
-   <p>&copy; Mitch Hess 2026. All Rights Reserved.</p>
-   <p><a href="mailto:mihess@my365.bellevue.edu" class="footer-link">mihess@my365.bellevue.edu</a></p>
-  </footer>
+    <div id="hero">
+      <img src="images/hero.jpg" alt="Wide banner showing Sherri's favorite bass guitar">
+    </div>
+
+    <main>
+
+      <section class="content-row">
+        <div class="subject-photo">
+          <img src="images/sherri-graduation.jpg" alt="Sherri and her husband Mitch holding Emmie">
+        </div>
+
+        <div class="content-text">
+          <h1>Introduction</h1>
+
+          <p>I am married to my best friend, Sherri Hess. She was born on October 30, 1973, and has built a life centered on determination, creativity, and the importance of family. Throughout the years, she has embraced new opportunities, overcome challenges, and continued learning, believing that every experience helps shape who a person becomes.</p>
+
+          <p>One of Sherri's proudest accomplishments was earning her GED in 1994, followed by completing her bachelor's degree in accounting in 2019. These achievements reflect her belief that it is never too late to pursue a goal through hard work and perseverance.</p>
+
+          <p>Creativity has always played an important role in her life. She began cross-stitching as a teenager and still enjoys it today. Over the years, she has expanded her interests to include painting, diamond art, and reading. In 2022, she challenged herself to learn the bass guitar, proving that she is always willing to try something new.</p>
+
+          <p>Family is at the heart of everything Sherri does. She is the proud mother of two daughters and a loving grandmother to five grandchildren. Spending time with her family and creating lasting memories brings her the greatest happiness.</p>
+
+          <p>When she is not working or enjoying time with family, Sherri loves hiking, swimming, rafting, motorcycle riding, collecting carousel music boxes, and playing racing video games. Her adventurous spirit and positive outlook inspire her to keep learning and growing.</p>
+        </div>
+      </section>
+
+      <section class="content-row">
+        <div class="subject-photo">
+          <img src="images/sherri-in-glasses.jpg" alt="Sherri wearing glasses in a selfie">
+        </div>
+
+        <div class="content-text">
+          <h1>Accomplishments and Goals</h1>
+
+          <ul class="mobile-achievements">
+            <li><strong>1989:</strong> Learned cross-stitching</li>
+            <li><strong>1994:</strong> Earned G.E.D.</li>
+            <li><strong>1995:</strong> First daughter was born</li>
+            <li><strong>1999:</strong> Second daughter was born</li>
+            <li><strong>2001:</strong> Married Mitch Hess</li>
+            <li><strong>2019:</strong> Graduated college with a bachelor's degree in accounting</li>
+            <li><strong>2022:</strong> Began playing bass guitar</li>
+          </ul>
+
+          <div class="tab-desk">
+            <table>
+              <caption>Sherri's Achievements and Goals</caption>
+              <thead>
+                <tr>
+                  <th scope="col">Year</th>
+                  <th scope="col">Achievement</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>1989</td><td>Learned cross-stitching</td></tr>
+                <tr><td>1994</td><td>Earned G.E.D.</td></tr>
+                <tr><td>1995</td><td>First daughter was born</td></tr>
+                <tr><td>1999</td><td>Second daughter was born</td></tr>
+                <tr><td>2001</td><td>Married Mitch Hess</td></tr>
+                <tr><td>2019</td><td>Graduated college with a bachelor's degree in accounting</td></tr>
+                <tr><td>2022</td><td>Began playing bass guitar</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <p>&copy; Mitch Hess 2026. All Rights Reserved.</p>
+      <p><a href="mailto:mihess@my365.bellevue.edu" class="footer-link">mihess@my365.bellevue.edu</a></p>
+    </footer>
+
+  </div>
 
 </body>
 </html>
